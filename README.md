@@ -1,14 +1,21 @@
 # WebPageFetcher
 
-## After running the program, two modes will be supported:
+**WebPageFetcher** is a command line tool that fetches web pages and stores them locally.
 
-under the root directory, run the following command to build the program:
+## Installation
+Run Dockerfile to build the docker image
 
 ```bash
-go run .\cmd\webpagefetcher\main.go
+docker build -t webpagefetcher .
 ```
 
-or run the docker image provided directly
+## Start the program in the docker container
+
+```bash
+webpagefetcher
+```
+
+## After running the program, two modes will be supported:
 
 ### Mode 1: fetch content from multiple urls and save them into a local storage:
 
