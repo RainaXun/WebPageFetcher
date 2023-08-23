@@ -3,7 +3,7 @@
 **WebPageFetcher** is a command line tool that fetches web pages and stores them locally.
 
 ## Installation
-Run Dockerfile to build the docker image
+Run Dockerfile directly or the following command to build the docker image
 
 ```bash
 docker build -t webpagefetcher .
@@ -12,7 +12,7 @@ docker build -t webpagefetcher .
 ## Start the program in the docker container
 
 ```bash
-webpagefetcher
+./webpagefetcher
 ```
 
 ## After running the program, two modes will be supported:
