@@ -1,0 +1,5 @@
+This one only build on linux environment, not on macOS with M-series chip.
+
+Need to separate the build environment for macOS and linux in the future, so that it builds on both environment.
+
+Possible solution: use docker-compose with different dockerfile for different environment.
